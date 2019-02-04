@@ -6,7 +6,7 @@ class BandInput extends Component {
     bandName: ''
   }
 
-  handleOnChange = value => {
+  handleOnChange = ({value}) => {
     this.setState({
       bandName: value,
     });
